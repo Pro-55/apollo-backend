@@ -20,7 +20,7 @@ const server = new ApolloServer({
 })
 
 app.get('/', (req, res) => {
-  res.send('Welcome to PASS API');
+  res.send('Welcome to PASS API')
 })
 
 server.applyMiddleware({ app })
